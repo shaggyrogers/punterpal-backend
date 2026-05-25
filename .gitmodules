@@ -1,0 +1,3 @@
+[submodule "api_types"]
+	path = api_types
+	url = git@github.com:shaggyrogers/punterpal-api-types.git
