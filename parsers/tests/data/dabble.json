@@ -1,0 +1,191 @@
+[
+    {
+        "sport": {
+            "id": "376e3045-8e58-4d3e-abdf-1c92fd6663b6",
+            "name": "Rugby Union",
+            "isRacing": false,
+            "created": "2021-06-08T00:52:52.697Z",
+            "updated": "2021-06-08T00:52:52.697Z",
+            "isHidden": false
+        },
+        "league": {
+            "id": "f14cf211-8124-4561-9537-cd1106af740a",
+            "name": "England Premiership",
+            "country": "England",
+            "featured": false,
+            "location": 2
+        },
+        "event": {
+            "id": "4dcbd06e-5593-455e-a218-b3b849970e8a",
+            "name": "Gloucester v Harlequins",
+            "competitionId": "f14cf211-8124-4561-9537-cd1106af740a",
+            "advertisedStart": "2024-12-20T19:45:00.000Z",
+            "isDisplayed": true,
+            "status": "Open",
+            "state": "",
+            "country": "England",
+            "actualStart": null,
+            "inplayAvailable": false,
+            "created": "2024-12-16T15:46:40.166Z",
+            "updated": "2024-12-16T15:46:40.166Z",
+            "selfMultiExtension": {
+                "allowSelfMulti": false
+            },
+            "markets": [
+                {
+                    "id": "332bbf74-6365-4e4c-b0f1-55d4fb39581d",
+                    "name": "Handicap -4.5",
+                    "resultingType": "Handicap_2way",
+                    "fixtureId": "4dcbd06e-5593-455e-a218-b3b849970e8a",
+                    "expectedWinners": 1,
+                    "isAllIn": false,
+                    "isFuture": false,
+                    "isHandicap": false,
+                    "isTotal": false,
+                    "allowMulti": true,
+                    "isDisplayed": true,
+                    "status": "open",
+                    "created": "2024-12-16T15:46:47.045Z",
+                    "updated": "2024-12-17T07:09:15.933Z",
+                    "isSgmAllowed": false,
+                    "isSrmAllowed": false,
+                    "isSingleAllowed": true
+                },
+                {
+                    "id": "8b7796a1-296d-4154-97ba-6d43eab528e4",
+                    "name": "Match Winner (Draw No Bet)",
+                    "resultingType": "Win_Draw_No_Bet",
+                    "fixtureId": "4dcbd06e-5593-455e-a218-b3b849970e8a",
+                    "expectedWinners": 1,
+                    "isAllIn": false,
+                    "isFuture": false,
+                    "isHandicap": false,
+                    "isTotal": false,
+                    "allowMulti": true,
+                    "isDisplayed": true,
+                    "status": "open",
+                    "created": "2024-12-16T15:46:46.915Z",
+                    "updated": "2024-12-16T16:52:08.640Z",
+                    "isSgmAllowed": false,
+                    "isSrmAllowed": false,
+                    "isSingleAllowed": true
+                }
+            ],
+            "selections": [
+                {
+                    "id": "7607b4cf-d160-4b0e-8cd4-9a7418df9dad",
+                    "name": "Harlequins",
+                    "fixtureId": "4dcbd06e-5593-455e-a218-b3b849970e8a",
+                    "isDisplayed": true,
+                    "isScratched": false,
+                    "winDeduction": null,
+                    "placeDeduction": null,
+                    "country": "",
+                    "jockey": "",
+                    "trainer": "",
+                    "barrierNumber": -1,
+                    "saddleNumber": -1,
+                    "created": "2024-12-16T15:46:47.000Z",
+                    "updated": "2024-12-16T15:46:47.000Z"
+                },
+                {
+                    "id": "a4e886cd-41d7-456a-8fbc-2020135c0398",
+                    "name": "Gloucester",
+                    "fixtureId": "4dcbd06e-5593-455e-a218-b3b849970e8a",
+                    "isDisplayed": true,
+                    "isScratched": false,
+                    "winDeduction": null,
+                    "placeDeduction": null,
+                    "country": "",
+                    "jockey": "",
+                    "trainer": "",
+                    "barrierNumber": -1,
+                    "saddleNumber": -1,
+                    "created": "2024-12-16T15:46:46.945Z",
+                    "updated": "2024-12-16T15:46:46.945Z"
+                },
+                {
+                    "id": "ff5731e6-be73-4366-8344-88caae21d37c",
+                    "name": "Gloucester -4.5",
+                    "fixtureId": "4dcbd06e-5593-455e-a218-b3b849970e8a",
+                    "isDisplayed": true,
+                    "isScratched": false,
+                    "winDeduction": null,
+                    "placeDeduction": null,
+                    "country": "",
+                    "jockey": "",
+                    "trainer": "",
+                    "barrierNumber": -1,
+                    "saddleNumber": -1,
+                    "created": "2024-12-16T15:46:47.067Z",
+                    "updated": "2024-12-16T15:46:47.067Z"
+                },
+                {
+                    "id": "bec356e2-f773-4d14-81e1-6d25862d2004",
+                    "name": "Harlequins +4.5",
+                    "fixtureId": "4dcbd06e-5593-455e-a218-b3b849970e8a",
+                    "isDisplayed": true,
+                    "isScratched": false,
+                    "winDeduction": null,
+                    "placeDeduction": null,
+                    "country": "",
+                    "jockey": "",
+                    "trainer": "",
+                    "barrierNumber": -1,
+                    "saddleNumber": -1,
+                    "created": "2024-12-16T15:46:47.104Z",
+                    "updated": "2024-12-16T15:46:47.104Z"
+                }
+            ],
+            "competition": {
+                "id": "f14cf211-8124-4561-9537-cd1106af740a",
+                "name": "England Premiership",
+                "sportId": "376e3045-8e58-4d3e-abdf-1c92fd6663b6",
+                "date": "2023-10-08T14:53:43.141Z",
+                "state": "",
+                "country": "England",
+                "location": 2,
+                "created": "2023-10-09T14:53:43.169Z",
+                "updated": "2023-10-12T01:03:37.339Z"
+            },
+            "prices": [
+                {
+                    "id": "c9fa7051-fc29-4185-bdd8-76a0a3c85251",
+                    "fixtureId": "4dcbd06e-5593-455e-a218-b3b849970e8a",
+                    "selectionId": "ff5731e6-be73-4366-8344-88caae21d37c",
+                    "marketId": "332bbf74-6365-4e4c-b0f1-55d4fb39581d",
+                    "price": 1.95,
+                    "created": "2024-12-16T15:46:47.084Z",
+                    "updated": "2024-12-17T07:09:15.956Z"
+                },
+                {
+                    "id": "330cb4e5-3162-4129-a644-74ffdb005d12",
+                    "fixtureId": "4dcbd06e-5593-455e-a218-b3b849970e8a",
+                    "selectionId": "bec356e2-f773-4d14-81e1-6d25862d2004",
+                    "marketId": "332bbf74-6365-4e4c-b0f1-55d4fb39581d",
+                    "price": 1.8,
+                    "created": "2024-12-16T15:46:47.120Z",
+                    "updated": "2024-12-17T07:09:15.956Z"
+                },
+                {
+                    "id": "89e81c05-bddb-4371-ac82-6f09eb449b83",
+                    "fixtureId": "4dcbd06e-5593-455e-a218-b3b849970e8a",
+                    "selectionId": "7607b4cf-d160-4b0e-8cd4-9a7418df9dad",
+                    "marketId": "8b7796a1-296d-4154-97ba-6d43eab528e4",
+                    "price": 2.3,
+                    "created": "2024-12-16T15:46:47.021Z",
+                    "updated": "2024-12-16T16:52:08.655Z"
+                },
+                {
+                    "id": "0ba203af-d44f-4f3b-a5b0-5f093ecc5259",
+                    "fixtureId": "4dcbd06e-5593-455e-a218-b3b849970e8a",
+                    "selectionId": "a4e886cd-41d7-456a-8fbc-2020135c0398",
+                    "marketId": "8b7796a1-296d-4154-97ba-6d43eab528e4",
+                    "price": 1.6,
+                    "created": "2024-12-16T15:46:46.975Z",
+                    "updated": "2024-12-16T16:52:08.655Z"
+                }
+            ]
+        }
+    }
+]

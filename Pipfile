@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+pydantic = "*"
+pytest = "*"
+levenshtein = "*"
+pandas = "*"
+arguably = "*"
+redis = {extras = ["hiredis"], version = "*"}
+flask = "*"
+sqlalchemy = ">=2.0.0"
+dramatiq = {extras = ["watch", "rabbitmq"], version = "*"}
+gevent = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"

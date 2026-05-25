@@ -1,0 +1,107 @@
+[
+    {
+        "sport": {
+            "name": "American Football",
+            "boCount": 2353,
+            "termKey": "AMERICAN_FOOTBALL",
+            "iconClassName": "",
+            "url": "/betting/sports/filter/american_football",
+            "iconUrl": "/spdcdn/assets/sport-specific/american-football/american-football.svg",
+            "iconUrlPng": "/spdcdn/assets/sport-specific/american-football/american-football.png"
+        },
+        "event": {
+            "id": 1020832274,
+            "name": "Minnesota Vikings - Chicago Bears",
+            "nameDelimiter": "-",
+            "englishName": "Minnesota Vikings - Chicago Bears",
+            "homeName": "Minnesota Vikings",
+            "awayName": "Chicago Bears",
+            "start": "2024-12-17T00:59:00Z",
+            "group": "NFL",
+            "groupId": 1000093656,
+            "path": [
+                {
+                    "id": 1000093199,
+                    "name": "American Football",
+                    "englishName": "American Football",
+                    "termKey": "american_football"
+                },
+                {
+                    "id": 1000093656,
+                    "name": "NFL",
+                    "englishName": "NFL",
+                    "termKey": "nfl"
+                }
+            ],
+            "nonLiveBoCount": 191,
+            "liveBoCount": 229,
+            "sport": "AMERICAN_FOOTBALL",
+            "tags": [
+                "OPEN_FOR_LIVE",
+                "STREAMED_WEB",
+                "BET_BUILDER",
+                "STREAMED_MOBILE",
+                "MATCH"
+            ],
+            "state": "STARTED"
+        },
+        "betOffer": {
+            "id": 2477450876,
+            "criterion": {
+                "id": 1004709447,
+                "label": "Including Overtime",
+                "englishLabel": "Including Overtime",
+                "order": [],
+                "occurrenceType": "POINTS",
+                "lifetime": "FULL_TIME_OVERTIME"
+            },
+            "betOfferType": {
+                "id": 2,
+                "name": "Head to Head",
+                "englishName": "Match"
+            },
+            "eventId": 1020832274,
+            "outcomes": [
+                {
+                    "id": 3585104305,
+                    "label": "1",
+                    "englishLabel": "1",
+                    "odds": 1060,
+                    "participant": "Minnesota Vikings",
+                    "type": "OT_ONE",
+                    "betOfferId": 2477450876,
+                    "changedDate": "2024-12-17T02:49:30Z",
+                    "participantId": 1000029137,
+                    "oddsFractional": "1/18",
+                    "oddsAmerican": "-1667",
+                    "status": "OPEN",
+                    "cashOutStatus": "ENABLED"
+                },
+                {
+                    "id": 3585104307,
+                    "label": "2",
+                    "englishLabel": "2",
+                    "odds": 9000,
+                    "participant": "Chicago Bears",
+                    "type": "OT_TWO",
+                    "betOfferId": 2477450876,
+                    "changedDate": "2024-12-17T02:49:30Z",
+                    "participantId": 1000000178,
+                    "oddsFractional": "8/1",
+                    "oddsAmerican": "800",
+                    "status": "OPEN",
+                    "cashOutStatus": "ENABLED"
+                }
+            ],
+            "tags": [
+                "OFFERED_PREMATCH",
+                "OFFERED_LIVE",
+                "PBA_DISABLED",
+                "BET_BUILDER",
+                "MAIN"
+            ],
+            "sortOrder": 1,
+            "cashOutStatus": "ENABLED"
+        }
+    }
+]
